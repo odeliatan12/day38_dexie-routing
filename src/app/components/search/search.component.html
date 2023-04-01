@@ -1,0 +1,9 @@
+<form [formGroup]="form" (ngSubmit)="addCountry()">
+    <div>
+        <h3>Countries</h3>
+        <input type="text" formControlName="country">
+        <h3>City</h3>
+        <input type="text" formControlName="city">
+        <button type="submit">Add</button>
+    </div>
+</form>
